@@ -1,0 +1,90 @@
+!SESSION 2017-10-21 12:11:48.366 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/admin/BuildTest -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-10-21 12:11:55.983
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-21 12:11:55.983
+!MESSAGE A conflict occurred for CTRL+3:
+Binding(CTRL+3,
+	ParameterizedCommand(Command(org.eclipse.ui.window.quickAccess,Quick Access,
+		Quickly access UI elements,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ebcdf6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+3,
+	ParameterizedCommand(Command(org.eclipse.riena.sample.app.client.rcpmail.openMessage,Open Message Dialog,
+		Open a message dialog,
+		Category(org.eclipse.riena.sample.app.client.rcpmail.category,Mail,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30dd23e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-21 12:11:55.983
+!MESSAGE A conflict occurred for ALT+SHIFT+X N:
+Binding(ALT+SHIFT+X N,
+	ParameterizedCommand(Command(bnd.launch.runShortcut.run,Run Bnd Native Launcher,
+		Run Bnd Native Launcher,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@88fc9cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X N,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.run,Run TestNG Test,
+		Run TestNG Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75693526,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-21 12:11:55.983
+!MESSAGE A conflict occurred for ALT+SHIFT+D N:
+Binding(ALT+SHIFT+D N,
+	ParameterizedCommand(Command(bnd.launch.runShortcut.debug,Debug Bnd Native Launcher,
+		Debug Bnd Native Launcher,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39a1c200,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D N,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.debug,Debug TestNG Test,
+		Debug TestNG Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@603a34e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.resources 4 77 2017-10-21 12:14:04.040
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2017-10-21 12:14:04.040
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 379 2017-10-21 12:14:04.040
+!MESSAGE A Link location must be specified.
+
+!ENTRY org.eclipse.core.resources 4 77 2017-10-21 12:14:47.970
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2017-10-21 12:14:47.970
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 379 2017-10-21 12:14:47.970
+!MESSAGE A Link location must be specified.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-21 12:18:05.632
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-21 12:18:05.637
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-21 12:18:06.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-21 12:18:06.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
